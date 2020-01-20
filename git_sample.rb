@@ -12,3 +12,10 @@ puts <<~TEXT
 SELECY *FROM　USERS;
 
 TEXT
+
+
+users = ["saitou","yamada","hayashi"]
+
+users.each do |user|
+    puts user
+end
